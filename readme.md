@@ -1,4 +1,5 @@
-![VRi Logo](http://imgur.com/a/Iv0kf.png)
+![Vri](PennAppsXV/app/src/main/res/finalLogo.png?raw=true "Title")
+
 
 VRi - a virtual reality Android App created for use with the Google Cardboard
 
