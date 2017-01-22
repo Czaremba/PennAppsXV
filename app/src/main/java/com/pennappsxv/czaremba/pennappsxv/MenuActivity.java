@@ -24,6 +24,10 @@ public class MenuActivity extends AppCompatActivity {
         setupVideoAndPlay(background, MenuActivity.this);
     }
 
+    public void startDonate(View v){
+        Intent i = new Intent(MenuActivity.this, VRActivity.class);
+        startActivity(i);
+    }
 
     public void setupVideoAndPlay(VideoView videoView, Context context){
         int videoID = this.getRawResIdByName("footage", context);

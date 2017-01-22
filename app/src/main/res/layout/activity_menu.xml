@@ -32,8 +32,10 @@
         android:background="@drawable/button2"
         android:layout_marginBottom="36dp"
         android:id="@+id/donateButton"
+        android:onClick="startDonate"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
+
 
     <Button
         android:layout_width="150dp"
