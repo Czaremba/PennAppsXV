@@ -1,3 +1,5 @@
+![VRi Logo](http://imgur.com/a/Iv0kf.png)
+
 VRi - a virtual reality Android App created for use with the Google Cardboard
 
 In short, this app was created to allow people to empathize with those that have specific eye diseases that hinder their daily routine.
