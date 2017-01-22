@@ -1,3 +1,9 @@
+VRi - a virtual reality Android App created for use with the Google Cardboard
+
+In short, this app was created to allow people to empathize with those that have specific eye diseases that hinder their daily routine.
+This application can be used to raise awareness and can provide as a teaching aid for medical students (i.e. optometry students).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##Inspiration
 
