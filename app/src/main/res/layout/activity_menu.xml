@@ -16,24 +16,7 @@
     android:weightSum="1"
     android:background="@drawable/background">
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button2"
-        android:layout_marginBottom="36dp"
-        android:id="@+id/donateButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/vrExperience" />
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="70dp"
-        android:id="@+id/vrExperience"
-        android:background="@drawable/button1"
-        android:layout_marginBottom="42dp"
-        android:onClick="startVR"
-        android:layout_above="@+id/donateButton"
-        android:layout_centerHorizontal="true" />
     
     <VideoView
         android:id="@+id/videoView"
@@ -74,6 +57,25 @@
         android:enabled="false"
         android:layout_alignBaseline="@+id/diabeticButton"
         android:layout_alignBottom="@+id/diabeticButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button2"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/donateButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/vrExperience" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:id="@+id/vrExperience"
+        android:background="@drawable/button1"
+        android:layout_marginBottom="42dp"
+        android:onClick="startVR"
+        android:layout_above="@+id/donateButton"
         android:layout_centerHorizontal="true" />
 
 
