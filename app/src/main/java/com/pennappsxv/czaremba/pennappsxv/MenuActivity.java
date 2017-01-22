@@ -47,12 +47,12 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void startVR(View v){
-        changeLayoutInSameXML();
+        //changeLayoutInSameXML();
     }
 
-    public void changeLayoutInSameXML(){
+    /*public void changeLayoutInSameXML(){
         //Buttons to disappear:
-        Button vrButton = (Button) findViewById(R.id.vrExperience);
+        //Button vrButton = (Button) findViewById(R.id.vrExperience);
         Button donateButton = (Button) findViewById(R.id.donateButton);
 
         //Buttons to appear:
@@ -76,6 +76,6 @@ public class MenuActivity extends AppCompatActivity {
 
         glaucomaButton.setEnabled(true);
         glaucomaButton.setVisibility(View.VISIBLE);
-    }
+    }*/
 
 }

@@ -27,15 +27,22 @@
         android:layout_alignParentLeft="true"/>
 
     <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button2"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/donateButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="18dp"
         android:id="@+id/glaucomaButton"
-        android:background="@drawable/diabetic"
-        android:visibility="invisible"
-        android:enabled="false"/>
+        android:background="@drawable/diabetic" />
 
     <Button
         android:layout_width="150dp"
@@ -44,38 +51,17 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="17dp"
         android:id="@+id/diabeticButton"
-        android:background="@drawable/glaucoma"
-        android:visibility="invisible"
-        android:enabled="false"/>
+        android:background="@drawable/glaucoma" />
+
+
 
     <Button
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/colourblindnessButton"
         android:background="@drawable/colourblind"
-        android:visibility="invisible"
-        android:enabled="false"
         android:layout_alignBaseline="@+id/diabeticButton"
         android:layout_alignBottom="@+id/diabeticButton"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button2"
-        android:layout_marginBottom="36dp"
-        android:id="@+id/donateButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/vrExperience" />
-
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="70dp"
-        android:id="@+id/vrExperience"
-        android:background="@drawable/button1"
-        android:layout_marginBottom="42dp"
-        android:onClick="startVR"
-        android:layout_above="@+id/donateButton"
         android:layout_centerHorizontal="true" />
 
 
