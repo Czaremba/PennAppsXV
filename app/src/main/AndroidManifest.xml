@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".VRActivity"
-            android:screenOrientation = "landscape"/>
+            android:screenOrientation = "portrait"/>
     </application>
 
 </manifest>
